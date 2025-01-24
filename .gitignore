@@ -1,2 +1,16 @@
+
 .env
 .htaccess
+.gitignore
+/application/logs/*
+writable/*
+writable
+writable/debugbar/*
+
+
+
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/
+/writable/*
+
