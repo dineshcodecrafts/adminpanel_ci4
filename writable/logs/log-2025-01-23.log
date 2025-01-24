@@ -1,0 +1,266 @@
+CRITICAL - 2025-01-23 03:26:41 --> Undefined property: App\Controllers\Admin::$usermodel
+in APPPATH\Controllers\Admin.php on line 24.
+ 1 APPPATH\Controllers\Admin.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$usermodel', 'APPPATH\\Controllers\\Admin.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:36:17 --> Undefined property: App\Controllers\Admin::$usermodel
+in APPPATH\Controllers\Admin.php on line 19.
+ 1 APPPATH\Controllers\Admin.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$usermodel', 'APPPATH\\Controllers\\Admin.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:38:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getAll()
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:38:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:38:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:38:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:39:26 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$builder
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Models\Admin\DashboardModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$builder', 'APPPATH\\Models\\Admin\\DashboardModel.php', 17)
+ 2 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:39:27 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$builder
+in APPPATH\Models\Admin\DashboardModel.php on line 17.
+ 1 APPPATH\Models\Admin\DashboardModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$builder', 'APPPATH\\Models\\Admin\\DashboardModel.php', 17)
+ 2 APPPATH\Controllers\Admin.php(19): App\Models\Admin\DashboardModel->getrecords()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:45:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Admin\DashboardModel.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(15): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 03:45:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Admin\DashboardModel.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(15): App\Models\Admin\DashboardModel->getrecords()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:10:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Admin\demo.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/demo', [], true)
+ 4 APPPATH\Controllers\Admin.php(20): view('Admin/demo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->get()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:24:47 --> Undefined variable $records
+in APPPATH\Controllers\Admin.php on line 17.
+ 1 APPPATH\Controllers\Admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'APPPATH\\Controllers\\Admin.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:44:52 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin_header', [], true)
+ 3 APPPATH\Controllers\Admin.php(18): view('admin_header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:46:18 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:46:19 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:14 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:36 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:38 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:38 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:38 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:39 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 05:29:50 --> Invalid file: admin_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('admin_header', null, true)
+ 3 APPPATH\Views\Admin\signin.php(1): CodeIgniter\View\View->include('admin_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\signin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/signin', [], true)
+ 7 APPPATH\Controllers\Admin.php(18): view('Admin/signin')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 07:24:56 --> Invalid file: Admin/adm_fotter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adm_fotter.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('Admin/adm_fotter', null, true)
+ 3 APPPATH\Views\Admin\dashboard.php(814): CodeIgniter\View\View->include('Admin/adm_fotter')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\dashboard.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Admin.php(16): view('Admin/dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:47:04 --> Class "App\Models\AdminModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:47:06 --> Class "App\Models\AdminModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:47:38 --> Class "App\Models\AdminModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:48:11 --> Class "App\Models\AdminModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:48:21 --> Class "App\Models\AdminModel" not found
+in APPPATH\Controllers\Admin.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 23:56:08 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\Admin.php on line 30.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Admin/attemptLogin')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Admin/attemptLogin')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Admin/attemptLogin')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,81 @@
+CRITICAL - 2025-01-24 00:15:45 --> Undefined array key "password"
+in APPPATH\Controllers\Admin.php on line 47.
+ 1 APPPATH\Controllers\Admin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\Admin.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:16:13 --> Undefined array key "password"
+in APPPATH\Controllers\Admin.php on line 47.
+ 1 APPPATH\Controllers\Admin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\Admin.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:16:48 --> Undefined array key "password"
+in APPPATH\Controllers\Admin.php on line 45.
+ 1 APPPATH\Controllers\Admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\Admin.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:16:49 --> Undefined array key "password"
+in APPPATH\Controllers\Admin.php on line 45.
+ 1 APPPATH\Controllers\Admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\Admin.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:24:31 --> Undefined array key "id"
+in APPPATH\Controllers\Admin.php on line 53.
+ 1 APPPATH\Controllers\Admin.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Admin.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:43:40 --> Undefined variable $session
+in APPPATH\Controllers\Admin.php on line 49.
+ 1 APPPATH\Controllers\Admin.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Admin.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:45:24 --> Call to undefined function App\Controllers\dashboard()
+in APPPATH\Controllers\Admin.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:45:27 --> Call to undefined function App\Controllers\dashboard()
+in APPPATH\Controllers\Admin.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->attemptLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 00:52:38 --> session_destroy(): Trying to destroy uninitialized session
+in SYSTEMPATH\Session\Session.php on line 441.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'SYSTEMPATH\\Session\\Session.php', 441)
+ 2 SYSTEMPATH\Session\Session.php(441): session_destroy()
+ 3 APPPATH\Controllers\Admin.php(90): CodeIgniter\Session\Session->destroy()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 01:18:45 --> Invalid file: Admin/adm_headerpanel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/adm_headerpanel.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('Admin/adm_headerpanel', null, true)
+ 3 APPPATH\Views\Admin\dashboard.php(3): CodeIgniter\View\View->include('Admin/adm_headerpanel')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\dashboard.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 7 APPPATH\Controllers\Admin.php(21): view('Admin/dashboard')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-24 03:31:07 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
