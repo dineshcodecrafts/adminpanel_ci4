@@ -7,67 +7,40 @@ class Admin extends BaseController
 {
     function __construct() {
         $this->db = \Config\Database::connect();
-        $this->Admindmodel = new AdminModel();
-
-        if (!session()->get('isLoggedIn')) {
-            // return redirect()->to('/login')->with('error', 'You must be logged in to access this page');
-            return redirect()->to('admin/login');
-            echo "session expired ";
-        }
+        $this->Adminmodel = new AdminModel();
     }
 
     public function login()
     {   
         return view('Admin/signin');
-        // return view('Admin/admin_header', ['content' => view('Admin/signin')]);
     }
 
     public function dashboard()
     {
         return view('Admin/dashboard');
-        // return view('Admin/admin_header', ['content' => view('Admin/signin')]);
     }
 
     public function attemptLogin()
     {
 
-        // print_r('welcome');
-        // exit;
 
         $session = session();
-        // $model = new UserModel();
 
         // Get the input values
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
-
-        // $username = 'test admin';
-        // $password = '1234';
-
-        // Validate user
-        // $user = $model->where('username', $username)->first();
-        $user = $this->Admindmodel->getrecords();;
-
-       
+        $user = $this->Adminmodel->getrecords();;
 
         if ($user) {
-            // Check password
-            // if (password_verify($password, $user['password_hash'])) {
             if ($password == $user['password_hash']) {
                 $session->set([
                     'isLoggedIn' => true,
-                    'user_id' => $user['user_id'],
+                    'user_id' => $user['id'],
                     'username' => $user['username'],
                     'is_logged_in' => true,
                 ]);
 
-                // $userID = session()->get('user_id');
-                // echo 'User ID: ' . $userID;
-                // exit;
-
                 return redirect()->to(site_url('admin/dashboard')); 
-                // return redirect()->to('/dashboard'); // Change this to your dashboard route
-                // $this->dashboard();
 
             } else {
 
@@ -78,27 +51,72 @@ class Admin extends BaseController
         }
     }
 
-    // public function(){
-       
-    // }
 
     public function logout()
     {
-        // Remove a specific key
+     
         session()->remove('user_id');
-        // Remove multiple keys
         session()->remove(['user_id', 'email']);
-        // Destroy the entire session
         session()->destroy();
 
         return redirect()->to('admin/login');
     }
 
-    public function session_check()
+    public function sample_forms()
+    {
+        return view('Admin/add_forms');
+    }   
+
+    public function form_view()
+    {
+        $adminModel = new Adminmodel();
+        // Retrieve data from the model
+        $data['stored_data'] = $adminModel->get_users_data();
+        // Pass the data to the view
+        return view('Admin/form_view', $data);
+
+    }  
+
+    public function save()
     {
 
-        // return redirect()->to(site_url('admin/dashboard')); 
+        
 
+        $adminModel = new Adminmodel();
+        // Handle file upload
+        $file = $this->request->getFile('file');
+
+        // print_r($file);
+        // exit;
+
+        $fileName = '';
+
+        if ($file && $file->isValid() && !$file->hasMoved()) {
+            $fileName = $file->getRandomName(); // Generate a random name for the file
+            $file->move('public/images', $fileName); // Move the file to the 'public/images' directory
+        }
+
+        // Insert data into the database
+        $data = [
+            'name' => $this->request->getPost('name'),
+            'email' => $this->request->getPost('email'),
+            'file' => $fileName,
+            'option' => $this->request->getPost('option'),
+            'comments' => $this->request->getPost('comments'),
+            'gender' => $this->request->getPost('gender'),
+        ] ;
+
+        $stored_data = $this->Adminmodel->users_data($data);
+        $this->form_view();
+
+        // print_r($user);
+        // exit;
+
+        // return redirect()->to('admin/form_view');
+    }
+
+    public function session_check()
+    {
         // Check if the user is logged in
         if (session()->get('isLoggedIn')) {
             // return redirect()->to('/login')->with('error', 'You must be logged in to access this page');
@@ -110,7 +128,5 @@ class Admin extends BaseController
             return redirect()->to('admin/login');
             echo "session expired ";
         }
-
-
     }
 }

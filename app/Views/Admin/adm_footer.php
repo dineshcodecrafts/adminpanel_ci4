@@ -5,6 +5,7 @@
 <script src="<?php echo base_url('public/adminpanel/assets/plugins/bootstrap/js/bootstrap.min.js'); ?>"></script>
 <script src="<?php echo base_url('public/adminpanel/assets/js/pcoded.min.js'); ?>"></script>
 
+<!-- 
 <div class="footer-fab">
     <div class="b-bg">
         <i class="fas fa-question"></i>
@@ -16,6 +17,8 @@
         </ul>
     </div>
 </div>
+
+-->
 
 </body>
 </html>
