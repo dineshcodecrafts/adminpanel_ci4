@@ -80,8 +80,7 @@ class Admin extends BaseController
     public function save()
     {
 
-        
-
+    
         $adminModel = new Adminmodel();
         // Handle file upload
         $file = $this->request->getFile('file');
@@ -113,6 +112,34 @@ class Admin extends BaseController
         // exit;
 
         // return redirect()->to('admin/form_view');
+    }
+
+    public function edit_form($id)
+    {
+        $adminModel = new Adminmodel();
+        $users_data = $adminModel->get_users_data_id($id);
+
+        if ($this->request->getMethod() == 'post') {
+            $data = [
+                'name' => $this->request->getPost('name'),
+                'email' => $this->request->getPost('email'),
+                'option' => $this->request->getPost('option'),
+                'comments' => $this->request->getPost('comments'),
+                'gender' => $this->request->getPost('gender'),
+            ];
+
+            $adminModel->update_formdata($id, $data);
+            return redirect()->to('/user/list')->with('success', 'User updated successfully.');
+        }
+
+        return view('edit_user', ['user' => $users_data]);
+    }
+
+    public function delete_form($id)
+    {
+        $model = new UserModel();
+        $model->delete($id);
+        return redirect()->to('/user/list')->with('success', 'User deleted successfully.');
     }
 
     public function session_check()

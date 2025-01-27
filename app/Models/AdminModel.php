@@ -39,4 +39,40 @@ class AdminModel extends Model
 		return $result;
 	}
 
+	public function get_users_data_id($users_id) {
+		
+		$builder->where('id', $users_id);
+		$builder = $this->db->table('users_data');
+		$builder->select('*');
+		$query = $builder->get();
+		$result = $query->getResultArray();
+		return $result;
+	}
+
+
+	public function update_formdata($data, $id)
+    {
+        if (isset($id) && $id != FALSE) {
+            $builder = $this->db->table($users_data);  // Use the table defined in the model
+            $builder->where('id', $id);  // Condition to select the record based on ID
+            $builder->update($data);  // Update the data with the provided array
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+
+	public function delete_fromdata($id)
+    {
+        if (isset($id) && $id != FALSE) {
+            $builder = $this->db->table($users_data);  // Using 'users' table
+            $builder->where('id', $id);  // Select the record based on ID
+            $builder->delete();  // Delete the record
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
 }

@@ -78,10 +78,10 @@
                                             <th>Option</th>
                                             <th>Comments</th>
                                             <th>Gender</th>
+                                            <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    
                                         <?php foreach ($stored_data as $user): ?>
                                             <tr>
                                                 <td><?= $user['id'] ?></td>
@@ -91,12 +91,19 @@
                                                 <td><?= $user['option'] ?></td>
                                                 <td><?= $user['comments'] ?></td>
                                                 <td><?= $user['gender'] ?></td>
+                                                <td>
+                                                    <a href="<?= base_url('admin/edit_form/' . $user['id']) ?>" class="btn btn-primary btn-sm">Edit</a>
+                                                    <a href="<?= base_url('admin/delete_form/' . $user['id']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this record?');">Delete</a>
+                                                </td>
                                             </tr>
                                         <?php endforeach; ?>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
